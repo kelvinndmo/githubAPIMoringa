@@ -18,4 +18,8 @@ export class GithubService {
   getUsers(): Observable<User[]> {
     return this.http.get<User[]>(`${environment.url}/users`)
   }
+
+  getUser(username: string): Observable<any> {
+    return this.http.get<any>(`${environment.url}/users/${username}`)
+  }
 }
