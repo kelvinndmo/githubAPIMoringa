@@ -22,5 +22,5 @@ app.listen(process.env.PORT || 8080);
 // "@angular/compiler-cli": "~9.0.5",
 
 // 4.
-"start": "node server.js",
-    "start:dev": "ng serve",
+// "start": "node server.js",
+    // "start:dev": "ng serve",
